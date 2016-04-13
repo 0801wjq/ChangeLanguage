@@ -1,0 +1,12 @@
+/* 
+  Localizable.strings
+  切换语言
+
+  Created by zonelue004 on 16/1/15.
+  Copyright © 2016年 ZB_Xiao. All rights reserved.
+*/
+
+"pic.png" = "pic_en.png";
+
+"invite" ="Localizable atany,come to join in us!";
+"buttonInfo" ="change Language";

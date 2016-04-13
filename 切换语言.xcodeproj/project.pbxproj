@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2D928DFC1C492F6000998D5F /* TwoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D928DFA1C492F6000998D5F /* TwoViewController.m */; };
+		2DC046911CBE9E06008ADF38 /* pic_cn.png in Resources */ = {isa = PBXBuildFile; fileRef = 2DC0468F1CBE9E06008ADF38 /* pic_cn.png */; };
+		2DC046921CBE9E06008ADF38 /* pic_en.png in Resources */ = {isa = PBXBuildFile; fileRef = 2DC046901CBE9E06008ADF38 /* pic_en.png */; };
 		7EFC6D511C48D165004F803C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7EFC6D501C48D165004F803C /* main.m */; };
 		7EFC6D541C48D165004F803C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7EFC6D531C48D165004F803C /* AppDelegate.m */; };
 		7EFC6D571C48D165004F803C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7EFC6D561C48D165004F803C /* ViewController.m */; };
@@ -15,6 +18,8 @@
 		7EFC6D5F1C48D165004F803C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7EFC6D5D1C48D165004F803C /* LaunchScreen.storyboard */; };
 		7EFC6D6A1C48D165004F803C /* ____Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7EFC6D691C48D165004F803C /* ____Tests.m */; };
 		7EFC6D751C48D165004F803C /* ____UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7EFC6D741C48D165004F803C /* ____UITests.m */; };
+		7EFC6DA41C48D801004F803C /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 7EFC6DA61C48D801004F803C /* Localizable.strings */; };
+		7EFC6DAF1C48D90F004F803C /* InternationalControl.m in Sources */ = {isa = PBXBuildFile; fileRef = 7EFC6DAE1C48D90F004F803C /* InternationalControl.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +40,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2D928DF91C492F6000998D5F /* TwoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TwoViewController.h; sourceTree = "<group>"; };
+		2D928DFA1C492F6000998D5F /* TwoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TwoViewController.m; sourceTree = "<group>"; };
+		2DC0468F1CBE9E06008ADF38 /* pic_cn.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pic_cn.png; sourceTree = "<group>"; };
+		2DC046901CBE9E06008ADF38 /* pic_en.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pic_en.png; sourceTree = "<group>"; };
 		7EFC6D4C1C48D165004F803C /* 切换语言.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "切换语言.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		7EFC6D501C48D165004F803C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		7EFC6D521C48D165004F803C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -51,6 +60,10 @@
 		7EFC6D701C48D165004F803C /* 切换语言UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "切换语言UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		7EFC6D741C48D165004F803C /* ____UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "____UITests.m"; sourceTree = "<group>"; };
 		7EFC6D761C48D165004F803C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7EFC6DA51C48D801004F803C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		7EFC6DA71C48D802004F803C /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/Localizable.strings"; sourceTree = "<group>"; };
+		7EFC6DAD1C48D90F004F803C /* InternationalControl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InternationalControl.h; sourceTree = "<group>"; };
+		7EFC6DAE1C48D90F004F803C /* InternationalControl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InternationalControl.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +94,11 @@
 		7EFC6D431C48D164004F803C = {
 			isa = PBXGroup;
 			children = (
+				2DC0468F1CBE9E06008ADF38 /* pic_cn.png */,
+				2DC046901CBE9E06008ADF38 /* pic_en.png */,
+				7EFC6DAD1C48D90F004F803C /* InternationalControl.h */,
+				7EFC6DAE1C48D90F004F803C /* InternationalControl.m */,
+				7EFC6DA61C48D801004F803C /* Localizable.strings */,
 				7EFC6D4E1C48D165004F803C /* 切换语言 */,
 				7EFC6D681C48D165004F803C /* 切换语言Tests */,
 				7EFC6D731C48D165004F803C /* 切换语言UITests */,
@@ -110,6 +128,8 @@
 				7EFC6D5D1C48D165004F803C /* LaunchScreen.storyboard */,
 				7EFC6D601C48D165004F803C /* Info.plist */,
 				7EFC6D4F1C48D165004F803C /* Supporting Files */,
+				2D928DF91C492F6000998D5F /* TwoViewController.h */,
+				2D928DFA1C492F6000998D5F /* TwoViewController.m */,
 			);
 			path = "切换语言";
 			sourceTree = "<group>";
@@ -228,6 +248,8 @@
 			knownRegions = (
 				en,
 				Base,
+				"zh-Hans",
+				"zh-Hant",
 			);
 			mainGroup = 7EFC6D431C48D164004F803C;
 			productRefGroup = 7EFC6D4D1C48D165004F803C /* Products */;
@@ -246,6 +268,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2DC046911CBE9E06008ADF38 /* pic_cn.png in Resources */,
+				2DC046921CBE9E06008ADF38 /* pic_en.png in Resources */,
+				7EFC6DA41C48D801004F803C /* Localizable.strings in Resources */,
 				7EFC6D5F1C48D165004F803C /* LaunchScreen.storyboard in Resources */,
 				7EFC6D5C1C48D165004F803C /* Assets.xcassets in Resources */,
 				7EFC6D5A1C48D165004F803C /* Main.storyboard in Resources */,
@@ -275,6 +300,8 @@
 			files = (
 				7EFC6D571C48D165004F803C /* ViewController.m in Sources */,
 				7EFC6D541C48D165004F803C /* AppDelegate.m in Sources */,
+				7EFC6DAF1C48D90F004F803C /* InternationalControl.m in Sources */,
+				2D928DFC1C492F6000998D5F /* TwoViewController.m in Sources */,
 				7EFC6D511C48D165004F803C /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -325,6 +352,15 @@
 				7EFC6D5E1C48D165004F803C /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		7EFC6DA61C48D801004F803C /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7EFC6DA51C48D801004F803C /* en */,
+				7EFC6DA71C48D802004F803C /* zh-Hans */,
+			);
+			name = Localizable.strings;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -501,6 +537,7 @@
 				7EFC6D7B1C48D165004F803C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		7EFC6D7C1C48D165004F803C /* Build configuration list for PBXNativeTarget "切换语言Tests" */ = {
 			isa = XCConfigurationList;
@@ -509,6 +546,7 @@
 				7EFC6D7E1C48D165004F803C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		7EFC6D7F1C48D165004F803C /* Build configuration list for PBXNativeTarget "切换语言UITests" */ = {
 			isa = XCConfigurationList;
@@ -517,6 +555,7 @@
 				7EFC6D811C48D165004F803C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
